@@ -1,0 +1,175 @@
+body{
+    background-image: linear-gradient(to top left, #704cd3 0%, #f0aa5b 100%);
+    height: 97.8vh;
+    color:rgb(61, 60, 60);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+main{
+    display: flex;
+    background-color: #7240f3;
+    border:transparent;
+    border-radius:13px;
+    
+}
+
+.section1{
+    
+    width:32em;
+    height:38em;
+    border-radius: 9px 0px 0px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.section2{
+     
+    width:32em;
+    height:38em;
+    border-radius:0px 9px 9px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+    
+}
+
+.player1{
+    top:3em;
+    position: absolute;
+    
+}
+
+.player2{
+    top:3em;
+    position: absolute;
+    
+}
+
+.number1{
+    top:2.2em;
+    position: absolute;
+    
+}
+
+
+.number2{
+    top:2.2em;
+    position: absolute;
+    
+}
+
+.box{
+    background-color:#5316ec ;
+    height:140px;
+    width:230px;
+    border-radius: 8px;
+    position: absolute;
+    top:480px;
+}
+
+.current-text{
+     color:white;
+     left:60px;
+     position: absolute;
+     top:-4px;
+}
+
+.current-score{
+    color:white;
+    left:100px;
+    position: absolute;
+    top:40px;
+}
+
+.box1{
+    background-color:#855deb ;
+    height:140px;
+    width:230px;
+    border-radius: 8px;
+    position: absolute;
+    top:480px;
+}
+
+.current-text1{
+     color:white;
+     left:60px;
+     position: absolute;
+     top:-4px;
+}
+
+.current-score1{
+    color:white;
+    left:100px;
+    position: absolute;
+    top:40px;
+}
+
+
+
+.button1{
+    border:transparent;
+    background-color: white;
+    height: 50px;
+    width:180px;
+    border-radius:40px;
+    color:rgb(66, 65, 65);   
+    font-size: 17px;
+    left:680px;
+    top:130px;
+    position: absolute;
+    opacity: 80%;
+}
+
+.button2{
+    border:transparent;
+    background-color: white;
+    height: 50px;
+    width:160px;
+    border-radius:40px;
+    color:rgb(66, 65, 65);
+    left:690px;
+    top:480px;   
+    position: absolute;
+    font-size: 17px;
+    opacity: 80%;
+}
+
+.button3{
+    border:transparent;
+    background-color: white;
+    height: 50px;
+    width:140px;
+    border-radius:40px;
+    color:rgb(66, 65, 65);  
+    left:700px;
+    top:560px; 
+    position: absolute;
+    font-size: 17px;
+    opacity: 80%;
+}
+
+.hidden{
+    display: none;
+}
+
+.dice-1{
+    position: absolute;
+    left:725px;
+    top:270px;
+}
+
+.section1--active{
+    background-color: #a48ae7;
+}
+
+.section--winner{
+    background-color: #160349;
+}
+
+
